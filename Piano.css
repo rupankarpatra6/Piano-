@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#403075, #882d61);
+  }
+  
+  .piano {
+    display: flex;
+    position: relative;
+    margin-left: -20;
+  }
+  
+  .white-key {
+    width: 40;
+    height: 120;
+    background-color: #FFF;
+   
+    border-radius: 0 0 6 6;
+    margin-left: -4;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .white-key.active {
+    background-color: #C0C0C0;
+  }
+  
+
+  .black-key {
+    position: absolute;
+    width: 24;
+    height: 80;
+    background-image: linear-gradient(#cabdbd, #000000);
+    
+    border-radius: 0 0 2 2;
+    outline: none;
+    cursor: pointer;
+  }
+  .black-key.active {
+    background-image: linear-gradient(#cabdbd, #000000);
+  }
+  .Db4-key {
+    left: 22;
+  }
+  .Eb4-key {
+    left: 58;
+  }
+  
+  .Gb4-key {
+    left: 130;
+  }
+  
+  .Ab4-key {
+    left: 166;
+  }
+  
+  .Bb4-key {
+    left: 202;
+  }
+  
+  .Db5-key {
+    left: 274;
+  }
+  
+  .Eb5-key {
+    left: 310;
+  }
